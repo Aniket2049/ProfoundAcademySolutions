@@ -39,14 +39,20 @@ public class _02_FindingThePeak {
 		int[] nums;
 		Scanner input = new Scanner(System.in);
 		n = input.nextInt();
+		if (n < 3) {
+			System.out.println("Impossible");
+			input.close();
+			return;
+		}
 		nums = new int[n];
 		for (int i = 0; i < n; i++)
 			nums[i] = input.nextInt();
 
+		input.close();
 		//--------Input Read--------
 
 		for (int i = n - 2; i >= 1; i--) {
-			if (nums[i] > nums[i + 1] && nums[i] > nums[i - 1]) {
+			if (nums[i] >= nums[i + 1] && nums[i] >= nums[i - 1]) {
 				System.out.println(nums[i]);
 				return;
 			}
