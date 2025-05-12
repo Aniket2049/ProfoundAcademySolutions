@@ -39,7 +39,7 @@ public class _01_FindTheMissingNumber {
 		}
 		scanner.close();
 
-		//--------------
+		//--------Input Read--------
 
 		int allXOR = 0;
 		for (int i = 1; i <= n; i++) {
