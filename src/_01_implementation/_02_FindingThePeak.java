@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 /*
 Finding the peak
-You are given an array of integers. You are asked to find the rightmost peak 
+You are given an array of n integers. You are asked to find the rightmost peak 
 element in that array. We consider an element to be a peak if it's greater or 
-equal to two of its neighbors ( ai-1 ai ai+1).
+equal to two of its neighbors ( ai-1 <= ai >= ai+1).
 
 Input
 The first line of the input contains the number (3≤ n ≤ 105). The second line 

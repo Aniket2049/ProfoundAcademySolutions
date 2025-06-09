@@ -27,6 +27,11 @@ Examples
 +---------------+---------------+
 |12345678		|No				|
 +---------------+---------------+
+
+Explanation
+1. 563706   -> (5+3+0)-(6+7+6) = 8-19 = -11 which is divisible by 11.
+2. 12345678 -> (1+3+5+7)-(2+4+6+8) = 16-20 = -4 which is not divisible by 11
+
 */
 
 public class _03_DivisibilityBy11 {

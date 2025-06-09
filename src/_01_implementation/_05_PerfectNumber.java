@@ -26,8 +26,8 @@ Examples
 +---------------+---------------+
 
 Explanation
-1. 6+1+2+3=6 -> 6 is perfect
-2. 8+1+2+4=7 -> 8 is not perfect
+1. 6 -> 1+2+3 = 6 -> 6 is perfect
+2. 8 -> 1+2+4 = 7 -> 8 is not perfect
 */
 
 public class _05_PerfectNumber {
