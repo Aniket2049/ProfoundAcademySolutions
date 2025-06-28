@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+// https://profound.academy/algorithms-data-structures/sudoku-368WaDQeCjf9szyA5Udv
+
 /*
 You have a digital clock that lits up some segments to display the current 
 time. Each digit is displayed as a collection of several lit-up and dimmed 
