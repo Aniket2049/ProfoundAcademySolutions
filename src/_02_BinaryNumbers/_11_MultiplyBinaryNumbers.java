@@ -1,4 +1,4 @@
-package _02_binaryNumbers;
+package _02_BinaryNumbers;
 
 import java.math.BigInteger;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package _02_binaryNumbers;
+package _02_BinaryNumbers;
 
 // https://profound.academy/algorithms-data-structures/convert-decimal-numbers-into-binary-gq9r8BFO55NfmMUY4WXC
 
